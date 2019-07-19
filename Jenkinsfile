@@ -253,7 +253,7 @@ pipeline{
         stage ('Create the Docker image') {
             when {
                 anyOf {
-                    branch 'master'
+                    // branch 'master'
                     branch 'develop'
                     branch 'release/*'
 
